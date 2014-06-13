@@ -17,4 +17,4 @@ cmake --build build --target img2c --config Release
 img2c (RGB565|RGBA4444) <FILE> > <OUTPUT>.c
 ```
 
-Eg. `img2c RGB565 bg.png bg.c`
+Eg. `img2c RGB565 bg.png > bg.c`
