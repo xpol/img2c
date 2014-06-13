@@ -2,7 +2,7 @@ language: c
 compiler:
   - gcc
   - clang
-before_script：
+before_script:
 	sudo apt-get install libfreeimage-dev
 script: 
   cmake -G "Unix Makefiles" -H. -Bbuild
